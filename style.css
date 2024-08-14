@@ -1,0 +1,420 @@
+:root {
+  --primary: #5e3bee;
+  --black: #282938;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1760px;
+  margin: 0 auto;
+}
+/* =================nav */
+#nav {
+    box-shadow: 1px -6px 19px black;
+    position: sticky;
+    padding: 40px 0px;
+}
+.navPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+.navList li a:hover {
+color: var(--primary);
+}
+.navList li a {
+  text-decoration: none;
+  color: var(--black);
+}
+.navBtn {
+  padding: 18px 30px;
+  border-radius: 5.33px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: white;
+}
+.navBtn:hover {
+  background: var(--primary);
+  color: white;
+  transition: 0.4s;
+}
+/* =================nav */
+/* =================banner */
+#banner{
+    background: #F5FCFF;
+    padding-top: 133px;
+    padding-bottom: 133px;
+}
+.bannerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bannerh4{
+    font-size: 21.33px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #282938;
+}
+.Bannerh1{
+        font-size: 75px;
+        font-weight: 600;
+        line-height: 120%;
+        color: var(--black);
+        margin-top: 21.33;
+        margin-bottom: 21.33;
+        width: 786px;
+}
+.Bannerh1 span{
+    color: var(--primary);
+}
+.Bannerp{
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 150%;
+ color: #1C1E53;
+ width: 621px;
+ margin-bottom: 33px;
+}
+.BannerBtn{
+    padding: 16px 25px;
+    border: 1px solid var(--primary);
+    border-radius: 5.33px;
+    color: white;
+    background: var(--primary);
+}
+.BannerBtn:hover{
+    background: white;
+    color: var(--primary);
+}
+.Imgbanner{
+    width: 628px;
+}
+/* =================banner */
+/* =================Skills */
+#skills{
+    padding-top: 149px;
+    padding-bottom: 149px;
+}
+.skillTittle{
+    margin-bottom: 21.33px;
+    font-size: 21.33px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--black);
+}
+.skillname{
+    margin-bottom: 106px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--black);
+}
+.skillWrapper{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30px;
+}
+.skillbox{
+    background: #ECFFFD;
+    /* max-width: 406px; */
+    padding: 20px 25px;
+    border-radius: 11px;
+}
+.skillbox:hover{
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(94,59,238,1);
+-moz-box-shadow: 0px 4px 4px 0px rgba(94,59,238,1);
+box-shadow: 0px 4px 4px 0px rgba(94,59,238,1);
+transition: .4s;
+}
+.fairy{
+    font-size: 61px;
+}
+.skillboxname{
+    margin-top: 21.33px;
+    margin-bottom: 32px;
+    font-size: 25px; 
+    font-weight: 700;
+    line-height: 140%;
+    color: var(--black);
+}
+.skillboxpera{
+    font-size: 16px; 
+    font-weight: normal;
+    line-height: 150%;
+    max-width: 290px;
+
+}
+/* =================Skills */
+/* =================About */
+.aboutWrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.aboutImg{
+    max-width: 813px;
+    max-height: 902px;
+    margin-bottom: 113px;
+}
+.aboutHeadding{
+    font-size: 21.33px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--black);
+}
+.aboutname{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--black);
+}
+.aboutpera{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 150%;
+}
+/* =================About */
+/* =================portfolio */
+#portfolio{
+    padding-top: 74px;
+    padding-bottom: 149px;
+}
+.PortfolioHeaddingWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.PortfolioHeadding h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--black);
+    margin-bottom: 106px;
+}
+.PortfolioHeadding h6{
+    font-size: 21.33px;
+    font-weight: normal;
+    line-height: 110%;
+    color: var(--black);
+    margin-bottom: 21.33px;
+}
+.PortfolioHeaddingBtn{
+align-content: center;
+}
+.PortfolioHeadBtn{
+    padding: 21.33px;
+    border: 1px solid #E62872;
+    border-radius: 10.33px;
+    color: white;
+    background: #E62872;
+
+}
+.PortfolioHeadBtn:hover{
+    background: white;
+    color: #E62872;
+    transition: .4s;
+}
+.basketball{
+margin-right:16px;
+font-size: 30px;
+}
+.portfolioImg{
+    max-width: 400px;
+}
+.portfoliobox h4{
+margin-top: 32px;
+margin-bottom: 10px;
+font-size: 32px;
+font-weight: 700;
+line-height: 140%;
+color: var(--black);
+}
+.portfoliobox:hover{
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    transition: .4s;
+}
+.portfoliobox p{
+font-size: 21.33px;
+font-weight: 400;
+line-height: 150%;
+color: var(--black);
+max-width: 404px;
+}
+.viewInDribble{
+    display: inline-block;
+    position: relative;
+}
+.viewInDribble::after{
+content: '';
+max-width: 100%;
+max-height: 3px;
+background: #5E3BEE;
+position: absolute;
+bottom: -10px;
+left: 50%;
+transform: translateX(-50%);
+
+}
+.portfolioboxwrappper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =================portfolio */
+/* =================testimonials */
+.testimonialsh4{
+    margin-top: 149px;
+    margin-bottom: 21.33px;
+    font-size: 21.33px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.testimonialsh3{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--black);
+    margin-bottom: 106px;
+}
+.testimonialsBox{
+    border: 1.33px solid;
+    border-radius: 8px;
+    color: #006B6A;
+    margin-bottom: 198px;
+    padding: 28.67px;
+}
+.testimonialsWrapper{
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+.starList{
+    display: flex;
+    list-style: none;
+    color: #006B6A;
+    gap: 6px;
+}
+.testboxpera{
+    max-width: 413px;
+}
+.testimonialsImg{
+    display: flex;
+    gap: 21.33px;
+}
+.testimgdetails{
+    margin-top: 32px;
+}
+/* =================testimonials */
+/* =================Contact */
+.contittle{
+    margin-top: 141px;
+    margin-bottom: 21.33px;
+    text-align: center;
+    font-size: 21.33px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--black);
+
+}
+.conheadding{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--black);
+    margin-bottom: 32px;
+    text-align: center;
+}
+.conpera{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 150%;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 64px;
+}
+/* ============================ */
+.conbox1{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+input{
+height: 30px;
+box-sizing: border-box;
+outline: none;
+border: 1px solid slategray;
+padding: 0 10px;
+border-radius: 5px;
+}
+.firstname, .lastname, .email, .sname, .topic, .massage{
+    display: flex;
+    flex-direction: column;
+}
+#sname, #ename, #pname, #name{
+    width: 495px; 
+
+}
+/* .inputArea{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+} */ */
+/* /* #name, #sname, #ename, #pname{
+    max-width: 495px;
+} */
+/* =================Contact */
+/* =================footer */
+.footerWrapperone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 106px 0px;
+    border-bottom: 1px solid ;
+    padding-bottom: 104px;
+}
+.footImg{
+    font-size: 40px;
+}
+.footerList{
+    list-style: none;
+    display: flex;
+    gap: 33px;
+    font-size: 18.33px;
+    font-weight: normal;
+    line-height: 150%;
+    color: var(--black);
+}
+.ficons{
+    font-size:21px;
+    margin-left: 16px;
+}
+    .footerWrapperTwo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+.downlist{
+    list-style: none;
+    display: flex;
+    gap: 33px;
+    font-size: 18.33px;
+    font-weight: normal;
+    line-height: 150%;
+    color: var(--black);   
+}
+/* =================footer */
